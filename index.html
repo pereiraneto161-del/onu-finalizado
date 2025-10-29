@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onu - Formulário Interativo</title>
+    <link rel="stylesheet" href="i.css">
+</head>
+<body>
+    <form action="recebe.php" method="post" id="comenta">
+        
+        <h2>Deixe seu Comentário</h2>
+        
+        <label for="comentario">Seu Comentário:</label>
+        <textarea id="comentario" name="comentario" rows="5" placeholder="Escreva seu comentário aqui..."></textarea>
+
+        <label for="pais">Selecione quem está falando:</label>
+        <select id="pais" name="pais">
+            <option value="">-- Selecione um País --</option>
+            <option value="Alemanha">Alemanha</option>
+            <option value="Canada">Canadá</option>
+            <option value="Suecia">Suécia</option>
+            <option value="Franca">França</option>
+            <option value="Japao">Japão</option>
+            <option value="Australia">Austrália</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Ucrania">Ucrânia</option>
+            <option value="Inglaterra">Inglaterra</option>
+            <option value="Cuba">Cuba</option>
+            <option value="Africa do Sul">África do Sul</option>
+            <option value="Mexico">México</option>
+            <option value="Egito">Egito</option>
+            <option value="Espanha">Espanha</option>
+            <option value="Siria">Síria</option>
+            <option value="Arabia Saudita">Arábia Saudita</option>
+            <option value="Ira">Irã</option>
+            <option value="Russia">Rússia</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="EUA">EUA</option>
+            <option value="China">China</option>
+            <option value="Israel">Israel</option>
+            <option value="Italia">Itália</option>
+            <option value="Coreia do Sul">Coreia do Sul</option>
+            <option value="Suica">Suíça</option>
+            <option value="Polonia">Polônia</option>
+        </select>
+
+        <input type="submit" value="Enviar Comentário">
+        
+    </form>
+    <a href="#verifica" id="frase">Verificar Tabela</a>
+    <form action="adm.php" method="post" id="verifica">
+        <input type="text" placeholder="Usuario" name="usuario" id="l">
+        <input type="password" placeholder="Senha" name="senha" id="l">
+        <input type="submit" value="Verificar" id="botao">
+    </form>
+    <div class="nada"><a href="#comenta" id="frase">voltar a comentar</a></div>
+</body>
+</html>
