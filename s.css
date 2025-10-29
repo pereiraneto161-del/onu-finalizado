@@ -1,0 +1,75 @@
+ /* 1. Estilos de Fundo e Centralização */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e9ecef; /* Cinza suave */
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            min-height: 100vh; /* Ocupa a altura total da tela */
+            margin: 0;
+            color: #333;
+        }
+
+        /* 2. Estilo da Caixa Principal */
+        .container {
+            background-color: #ffffff;
+            padding: 40px 60px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Sombra mais destacada */
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            border-top: 5px solid #28a745; /* Linha superior verde para sucesso */
+        }
+
+        /* 3. Estilo do Título */
+        h1 {
+            color: #28a745; /* Verde de sucesso */
+            margin-bottom: 25px;
+            font-size: 2.2em;
+            font-weight: 600;
+        }
+
+        /* 4. Estilos dos Links/Botões */
+        .botoes-area {
+            display: flex;
+            gap: 20px; /* Espaço entre os botões */
+            justify-content: center;
+            margin-top: 30px;
+        }
+        
+        /* Estilo base para os botões (links) */
+        a {
+            display: inline-block;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.1s;
+            width: 120px; /* Largura fixa para equilíbrio */
+            text-align: center;
+        }
+
+        /* Botão Primário (Verificar) */
+        .bt-primary {
+            background-color: #007bff; /* Azul para ação principal */
+            color: white;
+            border: 2px solid #007bff;
+        }
+        
+        .bt-primary:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px); /* Efeito de elevação */
+        }
+
+        /* Botão Secundário (Voltar) */
+        .bt-secondary {
+            background-color: #f8f9fa; /* Fundo claro */
+            color: #6c757d;
+            border: 2px solid #ced4da;
+        }
+
+        .bt-secondary:hover {
+            background-color: #e2e6ea;
+            color: #495057;
+        }
