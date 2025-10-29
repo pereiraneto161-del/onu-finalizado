@@ -2,7 +2,7 @@
     $comentario = $_POST['comentario'];
     $pais = $_POST['pais'];
 
-    $host = 'localhost';
+    $host = 'https://onu2025.vercel.app';
     $db = 'onu';
     $user = 'root';
     $password = '';
