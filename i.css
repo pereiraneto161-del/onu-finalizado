@@ -1,0 +1,114 @@
+ body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7f9; /* Fundo cinza claro */
+            
+            justify-content: center; /* Centraliza o conteúdo horizontalmente */
+            align-items: center; /* Centraliza o conteúdo verticalmente */
+            min-height: 100vh; /* Altura mínima de 100% da tela */
+            margin: 0;
+            color: #333;
+        }
+
+        /* Estilo para o Formulário */
+        form {
+            margin-top: 50px;
+            margin-left: 50%;
+            transform: translate(-50%);
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px; /* Bordas arredondadas */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            width: 100%;
+            max-width: 450px; /* Largura máxima para formulário */
+        }
+
+        /* Estilo para Rótulos (Labels) */
+        label {
+            display: block; /* Ocupa a linha inteira */
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+        #l{
+            margin-left: 50%;
+            transform: translate(-50%);
+            text-align: center;
+            display: block; /* Ocupa a linha inteira */
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+            width: 300px;
+            height: 40px;
+        }
+
+        /* Estilo para Campos de Input (textarea e select) */
+        textarea, select {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box; /* Garante que padding e borda não aumentem a largura total */
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        textarea:focus, select:focus {
+            border-color: #007bff; /* Borda azul ao focar */
+            outline: none; /* Remove o contorno padrão do navegador */
+        }
+
+        /* Estilo para o Botão de Envio */
+        input[type="submit"] {
+            background-color: #007bff; /* Cor azul primária */
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.2s;
+            width: 100%; /* Ocupa a largura total */
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+        }
+
+        input[type="submit"]:active {
+            transform: scale(0.98); /* Pequeno efeito de clique */
+        }
+        #botao[type="submit"] {
+            margin-top: 20px;
+            background-color: #007bff; /* Cor azul primária */
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.2s;
+            width: 100%; /* Ocupa a largura total */
+        }
+
+        #botao[type="submit"]:hover {
+            background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+        }
+
+        #botao[type="submit"]:active {
+            transform: scale(0.98); /* Pequeno efeito de clique */
+        }
+        #verifica{
+            margin-top: 300px;
+        }
+        #frase{
+            margin-left: 20px;
+        }
+        #frase:hover{
+            text-decoration-line: none;
+        }
+        .nada{
+            height: 300px;
+        }
